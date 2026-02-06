@@ -1,18 +1,40 @@
-# React + Vite
+# React Tienda Virtual
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplicación web desarrollada en React que simula una tienda virtual mostrando un catálogo de productos.
 
-Currently, two official plugins are available:
+## Tecnologías
+- React
+- Vite
+- JavaScript
+- CSS
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Estructura
+src/
+- components/
+  - ProductItem.jsx
+  - ProductList.jsx
+  - Product.css
+- App.jsx
+- main.jsx
 
-## React Compiler
+## Cómo ejecutar el proyecto
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+1. Clonar el repositorio:
+git clone https://github.com/TU_USUARIO/react-tienda.git
 
-Note: This will impact Vite dev & build performances.
+2. Entrar al proyecto:
+cd react-tienda
 
-## Expanding the ESLint configuration
+3. Instalar dependencias:
+npm install
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+4. Ejecutar:
+npm run dev
+
+Abrir en el navegador la URL que aparece en consola, normalmente:
+http://localhost:5173
+
+## Funcionalidades
+- Muestra una lista de productos
+- Cada producto tiene ID, nombre, precio e imagen
+- Uso de componentes y estado con React
